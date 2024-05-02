@@ -18,7 +18,6 @@ ASR = "countries/WestEuropean.txt" # Austrian Socialist Republic
 IRE = "countries/WestEuropean.txt" # Ireland
 KNE = "countries/WestEuropean.txt" # Dutch Exiles
 HUN = "countries/WestEuropean.txt" # Hungary
-HSR = "countries/WestEuropean.txt" # Hungarian Socialist Republic
 SCO = "countries/WestEuropean.txt" # Scotland
 WLS = "countries/WestEuropean.txt" # Wales
 SHO = "countries/WestEuropean.txt" # Schleswig-Holstein
