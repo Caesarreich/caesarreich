@@ -1,9 +1,6 @@
-# NEW POLITICS INTERFACE CREATED BY thanasislanaras
-
-#vars to easily change positions, thank me later :)
 @faction_name_pos_x = 7
-@faction_name_pos_y = 66
-@faction_name_max_width = 118
+@faction_name_pos_y = 49
+@faction_name_max_width = 150
 @faction_name_max_height = 55
 
 guiTypes = {
@@ -54,14 +51,14 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 186 y = 155 }
+			position = { x= 186 y = 149 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
 
 		containerWindowType = {
 			name = "chart_explanation"
-			position = { x = 335 y = 145 }
+			position = { x = 333 y = 144 }
 			size = { width = 216 height = 180 }
 			clipping = no
 
@@ -82,7 +79,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x = 267 y = 153 }
+			position = { x = 268 y = 150 }
 			size = { width = 100 height = 100 }
 			clipping = no
 
@@ -101,7 +98,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "ruling_party_info"
-			position = { x = 175 y = 216 }
+			position = { x = 175 y = 213 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
@@ -116,7 +113,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 5 y = 10 }
+				position = { x = 5 y = 7 }
 				font = "hoi_16mbs"
 				text = "ideology"
 				maxWidth = 155
@@ -128,7 +125,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 10 y = 40 } #don't shift it upwards, for example in GRE it bugs
+				position = { x = 10 y = 15 } #don't shift it upwards, for example in GRE it bugs
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 150
@@ -152,7 +149,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = 128 y = 79 }
+				position = { x = 126 y = 61 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				# buttonFont = "hoi_16mbs"
 				# buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
@@ -161,18 +158,18 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "power_balance_button"
-			position = { x = 23 y = 422 }
+			position = { x = 23 y = 408 }
 			clipping = no
 
 			buttonType = {
 				name = "show_power_balance"
-				position = { x = 0 y = 17 }
+				position = { x = 0 y = 0 }
 				quadTextureSprite = "GFX_power_balance_button_kr"
 			}
 
 			iconType = {
 				name = "show_power_balance_glow"
-				position = { x = 0 y = 17 }
+				position = { x = 0 y = 0 }
 				quadTextureSprite = "GFX_bop_glow_effect"
 				alwaystransparent = yes
 			}
@@ -180,7 +177,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "power_balance_percentage"
 				format = center
-				position = { x = 40 y = 25 }
+				position = { x = 40 y = 10 }
 				font = "hoi_16mbs"
 				text = "90%"
 				fixedsize = yes
@@ -192,7 +189,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "power_balance_levels"
 				format = center
-				position = { x = 40 y = 45 }
+				position = { x = 40 y = 25 }
 				font = "hoi_16mbs"
 				text = "3/5"
 				fixedsize = yes
@@ -203,7 +200,7 @@ guiTypes = {
 
 			iconType = {
 				name = "power_balance_ICON"
-				position = { x = 15 y = 20 }
+				position = { x = 12 y = 4 }
 				quadTextureSprite = "GFX_placeholder_bordered"
 				alwaystransparent = yes
 				scale = 0.55
@@ -212,7 +209,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 151 y = 439 }
+			position = { x = 151 y = 408 }
 			size = { width = 245 height = 55 }
 			clipping = no
 
@@ -223,7 +220,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 92 y = 9 }
+				position = { x = 92 y = 8 }
 				font = "hoi_16mbs"
 				text = "autonomy"
 				fixedsize = yes
@@ -303,7 +300,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 179 y = 52 }
+			position = { x = 179 y = 48 }
 			size = { width = 330 height = 50 }
 			clipping = no
 
@@ -407,13 +404,13 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "national_spirit"
-			position = { x = 18 y = 315 }
+			position = { x = 18 y = 303 }
 			size = { width = 536 height = 50 }
 			clipping = no
 			
 			instantTextboxType = {
 				name = "title"
-				position = { x = 0 y = -3 }
+				position = { x = 0 y = -1 }
 				font = "hoi_18mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
@@ -423,7 +420,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "national_spirit_container"
-				position = { x = -5 y = 20 }
+				position = { x = -3 y = 20 }
 				size = { width = 524 height = 99 }
 				horizontalScrollbar = "bottom_horizontal_slider"
                 smooth_scrolling = yes
@@ -435,7 +432,7 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "spirit_grid"
-                    position = { x = 5 y = 2 }
+                    position = { x = 1 y = 2 }
                     size = { width = 354 height = 100%% }
                     slotsize = { width = 59 height = 68 }
                     max_slots = { x = 1000 y = 1 } #same as defines
@@ -444,7 +441,7 @@ guiTypes = {
 				}
 				gridboxtype = {
 					name = "spirit_grid_over_defined"
-                    position = { x = 0 y = -5 }
+                    position = { x = 10 y = -1 }
                     size = { width = 354 height = 100%% }
                     slotsize = { width = 59 height = 68 }
 					max_slots = { x = 1000 y = 1 } #same as defines
@@ -454,20 +451,20 @@ guiTypes = {
 		}
 		iconType = {
 			name = "leader"
-			position = { x = 18 y = 69 }
+			position = { x = 18 y = 58 }
 			spriteType = "GFX_leader_unknown"
 		}
 
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
-			position = { x = 9 y = 56 }
+			position = { x = 10 y = 44 }
 			alwaystransparent = yes
 		}
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 18 y = 275 }
+			position = { x = 18 y = 262 }
 			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155
@@ -478,7 +475,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 547 } #KR: shifted 105px downwards from vanilla y
+			position = { x = 0 y = 530 } #KR: shifted 105px downwards from vanilla y
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 40
@@ -525,7 +522,7 @@ guiTypes = {
 		iconType ={
 			name ="politics_bottom"
 			spriteType = "GFX_main_screens_bottom"
-			position = { x = -3 y = 509 } #KR: shifted 100px downwards from vanilla y
+			position = { x = -2 y = 485 } #KR: shifted 100px downwards from vanilla y
 			Orientation = "UPPER_LEFT"
 			scale = 1.02
 		}
@@ -538,7 +535,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 10 y = 518 } #KR: shifted 100px downwards from vanilla y
+			position = { x = 10 y = 490 } #KR: shifted 100px downwards from vanilla y
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -546,7 +543,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 48 y = 526 } #KR: shifted 100px downwards from vanilla y
+			position = { x = 48 y = 498 } #KR: shifted 100px downwards from vanilla y
 			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
@@ -555,7 +552,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "subjects_button_container"
-			position = { x = 367 y = 518 } #KR: shifted 100px downwards from vanilla y
+			position = { x = 367 y = 490 } #KR: shifted 100px downwards from vanilla y
 
 			buttonType = {
 				name = "show_subjects_button"
@@ -586,7 +583,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "show_exiles_collaborations_button"
-			position = { x = 190 y = 518 } #KR: shifted 100px downwards from vanilla y
+			position = { x = 190 y = 490 } #KR: shifted 100px downwards from vanilla y
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -595,7 +592,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = 223 y = 526 } #KR: shifted 100px downwards from vanilla y
+			position = { x = 223 y = 498 } #KR: shifted 100px downwards from vanilla y
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
@@ -608,13 +605,13 @@ guiTypes = {
 		iconType = {
 			name = "icon_exiled_collaborations_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 192 y = 518 } #KR: shifted 100px downwards from vanilla y
+			position = { x = 192 y = 491 } #KR: shifted 100px downwards from vanilla y
 		}
 
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 12 y = 518 } #KR: shifted 100px downwards from vanilla y
+			position = { x = 12 y = 491 } #KR: shifted 100px downwards from vanilla y
 		}
 	}
 
@@ -1808,7 +1805,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "subideology_container"
-		position = { x = 177 y = 223 }
+		position = { x = 177 y = 233 }
 		instantTextboxType = {
 			name = "subideology_name"
 			position = { x = 2 y = 20 }
@@ -1824,19 +1821,19 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "power_balance_button_disabled_window"
-		position = { x = 23 y = 422 }
+		position = { x = 23 y = 408 }
 		clipping = no
 
 		iconType = {
 			name = "power_balance_button_disabled"
-			position = { x = 0 y = 17 }
+			position = { x = 0 y = 0 }
 			quadTextureSprite = "GFX_power_balance_button_kr"
 			pdx_tooltip = power_balance_button_disabled
 		}
 
 		iconType = {
 			name = "power_balance_icon_disabled"
-			position = { x = 30 y = 24 }
+			position = { x = 30 y = 7 }
 			quadTextureSprite = "GFX_power_balance_icon_kr"
 			alwaystransparent = yes
 		}

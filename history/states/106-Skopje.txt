@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = SER
+		owner = BUL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -20,11 +20,12 @@ state={
 			3882 3 
 		}
 		add_core_of = SER
+		add_core_of = BUL
 
 	}
 
 	provinces={
-		867 833 907 3865 3882 11832 
+		907 3865 3882
 	}
 	manpower=1374200
 	buildings_max_level_factor=1.000
