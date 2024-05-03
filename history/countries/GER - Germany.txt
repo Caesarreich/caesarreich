@@ -122,9 +122,14 @@ add_ideas = {
 	one_party_dictatorship
 }
 
-create_faction = stahlpakt
+create_faction = Europabund
 add_to_faction = GER
-add_to_faction = HOL
+add_to_faction = BEL 
+add_to_faction = EST 
+add_to_faction = POL
+add_to_faction = UKR
+add_to_faction = AUS 
+add_to_faction = CZE
 
 
 set_research_slots = 4
@@ -133,7 +138,7 @@ set_stability = 0.44
 set_war_support = 0.49
 
 set_politics = {	
-	ruling_party = esoteric_nationalist
+	ruling_party = social_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -141,17 +146,16 @@ set_politics = {
 }
 
 set_popularities = {
-	vanguardist = 0
-	utopian_socialist = 8
-	revolutionary_socialist = 1
-	social_democrat = 1
-	liberal = 1
-	liberal = 6
-	social_conservative = 15
-	authoritarian_democrat = 14
-	paternal_autocrat = 1
-	ultranationalist = 13
-	esoteric_nationalist = 40
+	vanguardist = 11
+	utopian_socialist = 2
+	revolutionary_socialist = 3
+	social_democrat = 30
+	liberal = 14
+	social_conservative = 13
+	authoritarian_democrat = 4
+	paternal_autocrat = 12
+	ultranationalist = 5
+	esoteric_nationalist = 6
 }
 
 GER_add_armour_variants = yes

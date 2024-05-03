@@ -105,7 +105,7 @@ set_stability = 0.56
 set_war_support = 0.61
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1922.12.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -113,16 +113,15 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 0
-	utopian_socialist = 0
-	revolutionary_socialist = 0
-	social_democrat = 5
-	liberal = 11
+	utopian_socialist = 2
+	revolutionary_socialist = 3
+	social_democrat = 8
 	liberal = 12
-	social_conservative = 16
-	authoritarian_democrat = 30
-	paternal_autocrat = 5
-	ultranationalist = 6
-	esoteric_nationalist = 15
+	social_conservative = 15
+	authoritarian_democrat = 10
+	paternal_autocrat = 40
+	ultranationalist = 10
+	esoteric_nationalist = 0
 }
 SOV = { embargo_ROOT = yes }
 

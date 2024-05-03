@@ -3,7 +3,7 @@ state={
 	name="STATE_824"
 
 		history={
-		owner = CAN
+		owner = QUE
 		add_core_of = CAN
 		add_core_of = QUE
 		victory_points = {
