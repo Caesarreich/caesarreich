@@ -80,6 +80,8 @@ add_ideas = {
 	parliamentary_republic
 }
 
+set_cosmetic_tag = HUN_danubia
+
 recruit_character = HUN_Matyas_Rakosi
 recruit_character = HUN_Bela_Kun
 recruit_character = HUN_Imre_Nagy
@@ -187,4 +189,4 @@ activate_advisor = HUN_Gabor_Kemeny_for_npo
 activate_advisor = HUN_Jenő_Racz_eco_npo
 activate_advisor = HUN_Andor_Jaross_sec_npo
 
-save_global_event_target_as = danubia
+save_global_event_target_as = unified_danubia
