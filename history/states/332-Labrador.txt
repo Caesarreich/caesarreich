@@ -6,7 +6,7 @@ state={
 		steel=11.0
 	}
 	history={
-		owner = QUE
+		owner = NFL
 		buildings = {
 			infrastructure = 3
 			4720 = {
@@ -16,7 +16,7 @@ state={
 
 		}
 		add_core_of = CAN
-		add_core_of = QUE
+		add_core_of = NFL
 		victory_points = {
 			4720 1
 		}

@@ -19,6 +19,7 @@ is_western_european_tag = {
 		tag = IRE
 		tag = KNE
 		tag = HUN
+		tag = HSR
 		tag = SCO
 		tag = WLS
 		tag = SHO
