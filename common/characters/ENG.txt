@@ -1,5 +1,20 @@
 characters = {
-	ENG_George_Frederick_Windsor = {
+	ENG_henry_williamson={
+		name=ENG_henry_williamson
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_henry_williamson
+			}
+		}
+		
+		country_leader={
+			ideology=national_socialism_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+ENG_George_Frederick_Windsor = {
 		name = "George V"
 		portraits = {
 			civilian = {
@@ -44,11 +59,6 @@ characters = {
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
 			ideology = absolute_mon_subtype
-			traits = { george_windsor }
-		}
-		country_leader = {
-      desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = ultranationalist_subtype
 			traits = { george_windsor }
 		}
 		country_leader = {
