@@ -134,8 +134,10 @@ set_popularities = {
 add_ideas = {
     one_party_dictatorship
 	FRA_the_shadow_of_the_gun
-	FRA_the_party_of_chaos
+	FRA_grand_construction
+	FRA_frankfurt_shackles
 	FRA_blue_terror
+	FRA_lyon_laws
 }
 
 create_faction = continental_entente

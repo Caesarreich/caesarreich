@@ -3,7 +3,7 @@ ideas = {
 	country = {
 	
 	    FRA_the_shadow_of_the_gun = {
-		
+			picture = FRA_the_shadow_of_the_gun
 			allowed = {
 				always = no
 			}
@@ -22,9 +22,29 @@ ideas = {
 			}
 			
 		}
+
+		FRA_grand_construction = {
+			picture = FRA_grand_construction
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+				consumer_goods_factor = -0.1
+			}
+			
+		}
 		
 		FRA_the_party_of_chaos = {
-		
+			picture = FRA_the_party_of_chaos
 			allowed = {
 				always = no
 			}
@@ -46,7 +66,7 @@ ideas = {
 		}
 		
 		FRA_blue_terror = {
-		
+			picture = FRA_blue_terror
 			allowed = {
 				always = no
 			}
@@ -64,7 +84,47 @@ ideas = {
 			}
 			
 		}
-	
+		FRA_lyon_laws = {
+			picture = FRA_lyon_laws
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				resistance_activity = 0.005
+			}
+			
+		}
+		FRA_frankfurt_shackles = {
+			picture = FRA_frankfurt_shackles
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			targeted_modifier = {
+				tag = GER
+				cic_to_target_factor = 0.1
+			}
+			modifier = {
+				research_speed_factor = -0.05
+			}
+			rule = {
+				can_not_declare_war = yes
+			}
+			
+		}
 	}
 
 }

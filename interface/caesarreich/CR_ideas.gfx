@@ -58,4 +58,25 @@ spriteTypes = {
         name = "GFX_idea_ENG_a_very_british_tyranny"
         textureFile = "gfx/interface/ideas/ENG/ENG_a_very_british_tyranny.png"
     }
+    ###FRA
+    spriteType = {
+        name = "GFX_idea_FRA_the_shadow_of_the_gun"
+        textureFile = "gfx/interface/ideas/FRA/FRA_the_shadow_of_the_gun.png"
+    }
+    spriteType = {
+        name = "GFX_idea_FRA_grand_construction"
+        textureFile = "gfx/interface/ideas/FRA/FRA_grand_construction.png"
+    }
+    spriteType = {
+        name = "GFX_idea_FRA_blue_terror"
+        textureFile = "gfx/interface/ideas/FRA/FRA_blue_terror.png"
+    }
+    spriteType = {
+        name = "GFX_idea_FRA_lyon_laws"
+        textureFile = "gfx/interface/ideas/FRA/FRA_lyon_laws.png"
+    }
+    spriteType = {
+        name = "GFX_idea_FRA_frankfurt_shackles"
+        textureFile = "gfx/interface/ideas/FRA/FRA_frankfurt_shackles.png"
+    }
 }
